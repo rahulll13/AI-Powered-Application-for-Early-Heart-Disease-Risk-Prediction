@@ -1,1 +1,1 @@
-# AI-Powered-Early-Heart-Disease-Risk-Prediction-Application
+# AI-PoweredApplication-For-Early-Heart-Disease-Risk-Prediction-Application
