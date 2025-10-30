@@ -123,7 +123,11 @@ python start_servers.py
 ```
 Then open http://localhost:5000 in your browser.
 
-## 📸Screenshots 
+## 📸Screenshots
+
+### 1. Landing Page
+
+![AI Heart Health Assistant Demo](frontend/Screeenshots/Thumbnail.png)
 
 ## 🔥Usage
 
