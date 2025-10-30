@@ -28,6 +28,8 @@ AI Powered Application used to Predict early risk of heart disease using an expl
 
 ## 🎮Working demo
 -A brief video walkthrough of the application, demonstrating user registration, the prediction process, and the final XAI-powered results page.
+-[![AI Heart Health Assistant Demo]("C:\Users\Acer\Videos\Screen Recordings\Thumbnail.png")](https://youtu.be/DWK7zz650NU?si=R6YieEA0sxtEM_CT)
+-Click the thumbnail above to watch a full video walkthrough of the application.
 
 ## 🪄Overview
 This project aims to provide an accessible, auditable pipeline for early heart disease risk prediction. It uses classical ML (and/or deep learning) with standard health features to produce risk scores and basic explanations so clinicians and users can understand model outputs.
