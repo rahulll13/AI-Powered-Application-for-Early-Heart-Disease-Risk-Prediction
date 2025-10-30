@@ -27,28 +27,28 @@ AI Powered Application used to Predict early risk of heart disease using an expl
 - Acknowledgements
 
 ## 🎮Working demo
--A brief video walkthrough of the application, demonstrating user registration, the prediction process, and the final XAI-powered results page.
--[![AI Heart Health Assistant Demo]('https://github.com/rahulll13/AI-Powered-Application-for-Early-Heart-Disease-Risk-Prediction/blob/master/frontend/Screeenshots/Thumbnail.png?raw=true')](https://youtu.be/DWK7zz650NU?si=R6YieEA0sxtEM_CT)
+- A brief video walkthrough of the application, demonstrating user registration, the prediction process, and the final XAI-powered results page.
+- [![AI Heart Health Assistant Demo]('https://github.com/rahulll13/AI-Powered-Application-for-Early-Heart-Disease-Risk-Prediction/blob/master/frontend/Screeenshots/Thumbnail.png?raw=true')](https://youtu.be/DWK7zz650NU?si=R6YieEA0sxtEM_CT)
 
--Click the thumbnail above to watch a full video walkthrough of the application.
+- Click the thumbnail above to watch a full video walkthrough of the application.
 
 ## 🪄Overview
 This project aims to provide an accessible, auditable pipeline for early heart disease risk prediction. It uses classical ML (and/or deep learning) with standard health features to produce risk scores and basic explanations so clinicians and users can understand model outputs.
 
 ## ✨Features
--High-Accuracy Prediction: Utilizes a RandomForestClassifier with 98.5% accuracy on the validation set to predict heart disease risk based on 13 clinical features.
+- High-Accuracy Prediction: Utilizes a RandomForestClassifier with 98.5% accuracy on the validation set to predict heart disease risk based on 13 clinical features.
 
--Explainable AI (XAI): Integrates the SHAP library to provide clear, user-friendly explanations for each prediction, building trust by showing which factors (e.g., cholesterol, age) contributed most to the risk score.
+- Explainable AI (XAI): Integrates the SHAP library to provide clear, user-friendly explanations for each prediction, building trust by showing which factors (e.g., cholesterol, age) contributed most to the risk score.
 
--Personalized Recommendations: A dynamic recommendation engine that parses the XAI results and generates actionable health advice tailored to the user's specific risk factors.
+- Personalized Recommendations: A dynamic recommendation engine that parses the XAI results and generates actionable health advice tailored to the user's specific risk factors.
 
--Secure User Authentication: Full user registration and login system with secure, stateless authentication using JSON Web Tokens (JWT).
+- Secure User Authentication: Full user registration and login system with secure, stateless authentication using JSON Web Tokens (JWT).
 
--Document Management with OCR: Users can upload medical documents (images or PDFs), with Tesseract OCR automatically extracting text for their records.
+- Document Management with OCR: Users can upload medical documents (images or PDFs), with Tesseract OCR automatically extracting text for their records.
 
--PDF Report Generation: Users can download a PDF summary of their prediction results for their records or to share with a healthcare provider.
+- PDF Report Generation: Users can download a PDF summary of their prediction results for their records or to share with a healthcare provider.
 
--Role-Based Access: Includes a "Doctor" role with a separate dashboard to view a list of registered patients.
+- Role-Based Access: Includes a "Doctor" role with a separate dashboard to view a list of registered patients.
 
 ## Quick Demo
 1. Start the app (instructions below).
@@ -57,22 +57,22 @@ This project aims to provide an accessible, auditable pipeline for early heart d
 
 ## 🛠️ Tech Stack & Architecture
 ### Backend
--Framework: Python 3.11, Flask, Flask-RESTful
--Authentication: Flask-JWT-Extended (for stateless JWTs)
--Database: Flask-SQLAlchemy, SQLite
--File Handling: Werkzeug secure_filename, Pillow (PIL) for image processing
--Services: Flask-Mail (for password resets), Tesseract (for OCR)
+- Framework: Python 3.11, Flask, Flask-RESTful
+- Authentication: Flask-JWT-Extended (for stateless JWTs)
+- Database: Flask-SQLAlchemy, SQLite
+- File Handling: Werkzeug secure_filename, Pillow (PIL) for image processing
+- Services: Flask-Mail (for password resets), Tesseract (for OCR)
 
 ### AI / Data Science
--Model: Scikit-learn (RandomForestClassifier, StandardScaler, Pipeline)
--Explainability (XAI): SHAP (SHapley Additive exPlanations)
--Data Handling: Pandas, NumPy
+- Model: Scikit-learn (RandomForestClassifier, StandardScaler, Pipeline)
+- Explainability (XAI): SHAP (SHapley Additive exPlanations)
+- Data Handling: Pandas, NumPy
 
 ### Frontend
--Core: HTML5, CSS3, JavaScript (ES6+)
--Framework: Bootstrap 5
--Visualization: Gauge.js (for the risk chart)
--State Management: sessionStorage is used to pass the final JSON prediction from the prediction page to the results page.
+- Core: HTML5, CSS3, JavaScript (ES6+)
+- Framework: Bootstrap 5
+- Visualization: Gauge.js (for the risk chart)
+- State Management: sessionStorage is used to pass the final JSON prediction from the prediction page to the results page.
 
 ## Getting Started
 
@@ -196,8 +196,9 @@ Please follow repository coding style and add tests for new functionality.
 This project is provided under the MIT License — see the LICENSE file for details.
 
 ## 📞Contact
--GitHub: https://github.com/rahulll13
--Email: sinha.rahul2318@gmail.com
+- GitHub: https://github.com/rahulll13
+  
+- Email: sinha.rahul2318@gmail.com
 
 ## 💫Acknowledgements
 - This project was developed as part of the Infosys Springboard Virtual Internship Program.
