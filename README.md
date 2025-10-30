@@ -129,6 +129,14 @@ Then open http://localhost:5000 in your browser.
 
 ![AI Heart Health Assistant Demo](frontend/Screeenshots/Thumbnail.png)
 
+### 2. Features 
+
+![AI Heart Health Assistant Demo](frontend/Screeenshots/Benifits.png)
+
+### 3. Advantages
+
+![AI Heart Health Assistant Demo](frontend/Screeenshots/whychoose.png)
+
 ## 🔥Usage
 
 ### Web UI
