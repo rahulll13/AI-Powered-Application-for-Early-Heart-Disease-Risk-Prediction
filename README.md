@@ -123,6 +123,8 @@ python start_servers.py
 ```
 Then open http://localhost:5000 in your browser.
 
+## 📸Screenshots 
+
 ## 🔥Usage
 
 ### Web UI
