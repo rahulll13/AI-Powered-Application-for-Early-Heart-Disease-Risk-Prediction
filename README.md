@@ -1,8 +1,9 @@
 # 🚀AI-Powered-Application-For-Early-Heart-Disease-Risk-Prediction
 
-AI Powered Application used to Predict early risk of heart disease using an explainable AI model along with a simple web interface. This repository contains code for data processing, model training, inference, and a small web app to let users enter health parameters and receive a risk estimate.
+AI Powered Application used to Predict early risk of heart disease using an explainable AI model along with a simple web interface. This project, developed as part of the Infosys Springboard Internship which moves beyond a simple prediction by using Explainable AI (XAI) to show users why a prediction was made, and provides personalized health recommendations based on their key risk factors. This repository contains code for data processing, model training, inference, and a small web app to let users enter health parameters and receive a risk estimate.
 
 ## 🌐Table of Contents
+- Working demo
 - Overview
 - Features
 - Quick Demo
@@ -23,6 +24,9 @@ AI Powered Application used to Predict early risk of heart disease using an expl
 - License
 - Contact
 - Acknowledgements
+
+## 🎮Working demo
+-A brief video walkthrough of the application, demonstrating user registration, the prediction process, and the final XAI-powered results page.
 
 ## 🪄Overview
 This project aims to provide an accessible, auditable pipeline for early heart disease risk prediction. It uses classical ML (and/or deep learning) with standard health features to produce risk scores and basic explanations so clinicians and users can understand model outputs.
