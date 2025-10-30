@@ -129,13 +129,52 @@ Then open http://localhost:5000 in your browser.
 
 ![AI Heart Health Assistant Demo](frontend/Screeenshots/Thumbnail.png)
 
+
 ### 2. Features 
 
 ![AI Heart Health Assistant Demo](frontend/Screeenshots/Benifits.png)
 
+
 ### 3. Advantages
 
-![AI Heart Health Assistant Demo](frontend/Screeenshots/whychoose.png)
+![AI Heart Health Assistant Demo](https://github.com/rahulll13/AI-Powered-Application-for-Early-Heart-Disease-Risk-Prediction/blob/master/frontend/Screeenshots/why%20choose.png)
+
+
+### 4. How It Works:
+
+![AI Heart Health Assistant Demo](https://github.com/rahulll13/AI-Powered-Application-for-Early-Heart-Disease-Risk-Prediction/blob/master/frontend/Screeenshots/how%20works.png)
+
+
+### 5. Create Account 
+
+![AI Heart Health Assistant Demo](https://github.com/rahulll13/AI-Powered-Application-for-Early-Heart-Disease-Risk-Prediction/blob/master/frontend/Screeenshots/create%20account.png)
+
+
+### 6. Login Page
+
+![AI Heart Health Assistant Demo](https://github.com/rahulll13/AI-Powered-Application-for-Early-Heart-Disease-Risk-Prediction/blob/master/frontend/Screeenshots/login%20page.png)
+
+
+### 7. Prediction Page
+
+![AI Heart Health Assistant Demo](https://github.com/rahulll13/AI-Powered-Application-for-Early-Heart-Disease-Risk-Prediction/blob/master/frontend/Screeenshots/prediction%20page.png)
+
+
+### 8. Result page
+
+![AI Heart Health Assistant Demo](https://github.com/rahulll13/AI-Powered-Application-for-Early-Heart-Disease-Risk-Prediction/blob/master/frontend/Screeenshots/result%20page.png)
+
+
+### 9. Documents page
+
+![AI Heart Health Assistant Demo](https://github.com/rahulll13/AI-Powered-Application-for-Early-Heart-Disease-Risk-Prediction/blob/master/frontend/Screeenshots/documents.png)
+
+
+### 10. Profile page
+
+![AI Heart Health Assistant Demo](https://github.com/rahulll13/AI-Powered-Application-for-Early-Heart-Disease-Risk-Prediction/blob/master/frontend/Screeenshots/profile.png)
+
+
 
 ## 🔥Usage
 
