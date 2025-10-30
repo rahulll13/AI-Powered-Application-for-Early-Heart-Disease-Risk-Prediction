@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heart Disease Prediction AI</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body class="authen-page">
+
+<canvas id="canvas"></canvas>
+
+<div style="position: relative; z-index: 1;">
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#"><i class="bi bi-heart-pulse-fill me-2"></i>Heart Shield</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#benefits">Benefits</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#how-it-works">How It Works</a>
+                    </li>
+                     <li class="nav-item ms-lg-3">
+                        <a href="login.html" class="btn btn-outline-light">Sign In</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container text-center d-flex flex-column justify-content-center" style="min-height: 100vh; padding-top: 10rem; padding-bottom: 4rem;">
+
+        <div class="hero-section my-5">
+            <h1 class="display-3 fw-bold mb-3" data-aos="fade-down">Heart Disease Prediction AI</h1>
+            <p class="lead col-lg-8 mx-auto mb-4" data-aos="fade-down" data-aos-delay="200">
+              AI powered application which Leverages machine learning for early risk assessment of cardiovascular diseases, Just Upload your medical data or input it manually to get a real-time prediction result !!.
+            </p>
+            <div class="d-grid gap-3 d-sm-flex justify-content-sm-center" data-aos="fade-up" data-aos-delay="400">
+                <a href="register.html" class="btn btn-primary btn-lg px-4 gap-3">Get Started for Free</a>
+                <a href="#features" class="btn btn-outline-primary btn-lg px-4">Learn More</a>
+            </div>
+        </div>
+
+        <div id="features" class="features-section my-5 pt-5">
+            <h2 class="mb-4" data-aos="fade-up">Key Features</h2>
+            <div class="row g-4">
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100"><div class="feature-card"><div class="feature-icon mb-3"><i class="bi bi-speedometer2"></i></div><h5>Real-Time Prediction</h5><p>Enter health metrics and receive an instant risk assessment from our trained ML model.</p></div></div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200"><div class="feature-card"><div class="feature-icon mb-3"><i class="bi bi-file-earmark-text"></i></div><h5>Document OCR</h5><p>Upload a medical report, and our OCR engine will extract the text to help you fill the form.</p></div></div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="300"><div class="feature-card"><div class="feature-icon mb-3"><i class="bi bi-pie-chart-fill"></i></div><h5>History & Reports</h5><p>Track your prediction history with an interactive chart and download PDF reports.</p></div></div>
+            </div>
+        </div>
+
+        <div id="benefits" class="benefits-section my-5 pt-5">
+            <h2 class="mb-4" data-aos="fade-up">Why Choose Our App?</h2>
+            <div class="row text-start g-4">
+                <div class="col-md-6" data-aos="fade-right"><div class="benefit-card"><h5><i class="bi bi-shield-check me-2"></i>Empower Your Health</h5><p>Gain proactive insights into your cardiovascular health, enabling early conversations with professionals.</p></div></div>
+                <div class="col-md-6" data-aos="fade-left"><div class="benefit-card"><h5><i class="bi bi-clock-history me-2"></i>Save Time</h5><p>Our hybrid OCR and manual input system speeds up data entry, making the process quick and efficient.</p></div></div>
+                <div class="col-md-6" data-aos="fade-right"><div class="benefit-card"><h5><i class="bi bi-lock-fill me-2"></i>Secure & Private</h5><p>Your data is secure. We use token-based authentication to ensure only you can access your information.</p></div></div>
+                <div class="col-md-6" data-aos="fade-left"><div class="benefit-card"><h5><i class="bi bi-graph-up-arrow me-2"></i>Track Your Progress</h5><p>Visualize your prediction trends over time, helping you understand the impact of lifestyle changes.</p></div></div>
+            </div>
+        </div>
+
+        <div id="how-it-works" class="how-it-works-section my-5 pt-5">
+            <h2 class="mb-4" data-aos="fade-up">How It Works</h2>
+            <div class="row text-center g-4">
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100"><div class="step-card"><div class="step-number">1</div><h5>Create an Account</h5><p>Register for a free and secure account to get started.</p></div></div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200"><div class="step-card"><div class="step-number">2</div><h5>Provide Your Data</h5><p>Either fill out the prediction form manually or upload a document.</p></div></div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="300"><div class="step-card"><div class="step-number">3</div><h5>Receive Insights</h5><p>Get an instant risk prediction and track your results over time.</p></div></div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="footer mt-auto py-3">
+        <div class="container text-center">
+            <span>&copy; 2025 Heart Disease Prediction AI. All Rights Reserved.</span>
+        </div>
+    </footer>
+
+</div> <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="scripts/heart-animation.js"></script> <script>
+    // Your original script for initializing AOS is preserved
+    AOS.init({
+        duration: 800, 
+        once: true,    
+    });
+
+    // Your original script for smooth scrolling is preserved
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+</script>
+
+</body>
+</html>

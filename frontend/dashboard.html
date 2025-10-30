@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Heart Disease Prediction</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+    <!-- This div is where the navbar will be loaded by JavaScript -->
+    <div id="navbar-container"></div>
+
+    < class="container my-4">
+        <!-- Prediction Form Section -->
+        <div class="mb-5">
+            <h2>Heart Disease Prediction</h2>
+            <p>Enter the patient's data below to get a real-time prediction.</p>
+            
+            <form id="predictionForm" class="row g-3 p-3 border rounded bg-light">
+                <div class="col-md-4"><label for="age" class="form-label">Age</label><input type="number" class="form-control" id="age" required></div>
+                <div class="col-md-4"><label for="sex" class="form-label">Sex (1=Male, 0=Female)</label><input type="number" class="form-control" id="sex" required></div>
+                <div class="col-md-4"><label for="cp" class="form-label">Chest Pain Type (0-3)</label><input type="number" class="form-control" id="cp" required></div>
+                <div class="col-md-4"><label for="trestbps" class="form-label">Resting Blood Pressure (mm Hg)</label><input type="number" class="form-control" id="trestbps" required></div>
+                <div class="col-md-4"><label for="chol" class="form-label">Serum Cholesterol (mg/dl)</label><input type="number" class="form-control" id="chol" required></div>
+                <div class="col-md-4"><label for="fbs" class="form-label">Fasting Blood Sugar > 120 (1=T, 0=F)</label><input type="number" class="form-control" id="fbs" required></div>
+                <div class="col-md-4"><label for="restecg" class="form-label">Resting ECG (0-2)</label><input type="number" class="form-control" id="restecg" required></div>
+                <div class="col-md-4"><label for="thalach" class="form-label">Max Heart Rate Achieved</label><input type="number" class="form-control" id="thalach" required></div>
+                <div class="col-md-4"><label for="exang" class="form-label">Exercise Induced Angina (1=Y, 0=N)</label><input type="number" class="form-control" id="exang" required></div>
+                <div class="col-md-4"><label for="oldpeak" class="form-label">ST Depression (Oldpeak)</label><input type="number" step="0.1" class="form-control" id="oldpeak" required></div>
+                <div class="col-md-4"><label for="slope" class="form-label">Slope of ST Segment (0-2)</label><input type="number" class="form-control" id="slope" required></div>
+                <div class="col-md-4"><label for="ca" class="form-label">Major Vessels Colored (0-4)</label><input type="number" class="form-control" id="ca" required></div>
+                <div class="col-md-4"><label for="thal" class="form-label">Thal (0-3)</label><input type="number" class="form-control" id="thal" required></div>
+                <div class="col-12 mt-4"><button type="submit" class="btn btn-primary">Get Prediction</button></div>
+            </form>
+
+            <div id="resultDiv"></div>
+        </div>
+
+        <hr class="my-5">
+
+        <!-- Document Upload Section -->
+        <div class="mb-5">
+            <h2>Upload Medical Document</h2>
+            <form id="uploadForm" class="drop-zone">
+                <span class="drop-zone__prompt">Drag & Drop a file here, or click to select</span>
+                <input type="file" id="documentFile" name="documentFile" class="drop-zone__input">
+            </form>
+            <div class="d-grid mt-3">
+                <button id="uploadButton" type="button" class="btn btn-secondary">Upload and Process</button>
+            </div>
+            <div id="uploadResultDiv" class="mt-4"></div>
+        </div>
+    </div>
+    
+
+    <!-- Our custom scripts -->
+    <script src="scripts/main.js"></script>
+    <script src="scripts/dashboard.js"></script>
+</body>
+</html>
