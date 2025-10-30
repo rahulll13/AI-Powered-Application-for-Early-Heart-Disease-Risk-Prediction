@@ -11,6 +11,7 @@ AI Powered Application used to Predict early risk of heart disease using an expl
   - Prerequisites
   - Installation
   - Running locally
+- Screenshots 
 - Usage
   - Web UI
   - API
