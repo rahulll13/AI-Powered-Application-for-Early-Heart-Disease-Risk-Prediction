@@ -28,7 +28,7 @@ AI Powered Application used to Predict early risk of heart disease using an expl
 
 ## 🎮Working demo
 -A brief video walkthrough of the application, demonstrating user registration, the prediction process, and the final XAI-powered results page.
--[![AI Heart Health Assistant Demo]('frontend/Screeenshots/Thumbnail.png')](https://youtu.be/DWK7zz650NU?si=R6YieEA0sxtEM_CT)
+-[![AI Heart Health Assistant Demo]('https://github.com/rahulll13/AI-Powered-Application-for-Early-Heart-Disease-Risk-Prediction/blob/master/frontend/Screeenshots/Thumbnail.png?raw=true')](https://youtu.be/DWK7zz650NU?si=R6YieEA0sxtEM_CT)
 
 -Click the thumbnail above to watch a full video walkthrough of the application.
 
