@@ -154,6 +154,18 @@ Then open http://localhost:5000 in your browser.
 
 ![AI Heart Health Assistant Demo](https://github.com/rahulll13/AI-Powered-Application-for-Early-Heart-Disease-Risk-Prediction/blob/master/frontend/Screeenshots/login%20page.png)
 
+### 7. Forget Password
+
+![AI Heart Health Assistant Demo](https://github.com/rahulll13/AI-Powered-Application-for-Early-Heart-Disease-Risk-Prediction/blob/master/frontend/Screeenshots/Forget%20Password.png)
+
+### 8. Reset password from the Gmail
+
+![AI Heart Health Assistant Demo](https://github.com/rahulll13/AI-Powered-Application-for-Early-Heart-Disease-Risk-Prediction/blob/master/frontend/Screeenshots/Gmail%20Password%20reset%20token.png)
+
+### 9. Reset Password
+
+![AI Heart Health Assistant Demo](https://github.com/rahulll13/AI-Powered-Application-for-Early-Heart-Disease-Risk-Prediction/blob/master/frontend/Screeenshots/Reset%20password.png)
+
 
 ### 7. Prediction Page
 
