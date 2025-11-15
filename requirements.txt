@@ -1,0 +1,19 @@
+# --- Core Flask Application ---
+Flask
+Flask-SQLAlchemy
+Flask-Migrate
+Flask-Bcrypt
+Flask-Mail
+Flask-JWT-Extended  # Based on JWT_SECRET_KEY in config.py
+gunicorn            # Essential production server (replaces 'flask run')
+
+# --- Machine Learning & Data ---
+pandas              # For data loading and manipulation (from README)
+scikit-learn        # For all ML models (Logistic Regression, MLP, etc.)
+matplotlib          # For generating plots
+seaborn             # For advanced plots (like confusion matrices)
+
+# --- Utilities ---
+python-dotenv       # For loading your .env file
+pytesseract         # For OCR, based on TESSERACT_CMD in config.py
+Pillow              # Image processing library, often needed by pytesseract
