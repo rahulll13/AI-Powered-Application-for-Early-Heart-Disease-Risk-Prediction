@@ -52,9 +52,10 @@ This project aims to provide an accessible, auditable pipeline for early heart d
 - Role-Based Access: Includes a "Doctor" role with a separate dashboard to view a list of registered patients.
 
 ## Quick Demo
-1. Start the app (instructions below).
-2. Open the web UI at http://localhost:5000 (or the port configured).
-3. Enter patient features and get a risk score with a short explanation.
+
+# A quick demo of this Application is available at :-
+
+https://early-heart-disease-risk-rahul-sinha.netlify.app/
 
 ## 🛠️ Tech Stack & Architecture
 ### Backend
